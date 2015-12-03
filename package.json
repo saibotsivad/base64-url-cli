@@ -1,0 +1,25 @@
+{
+  "name": "base64-url-cli",
+  "version": "1.0.0",
+  "description": "Simple command line wrapper for the base64-url module.",
+  "bin": {
+    "base64url": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiaslabs/base64-url-cli.git"
+  },
+  "keywords": [
+    "base64",
+    "base64url"
+  ],
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/tobiaslabs/base64-url-cli/issues"
+  },
+  "homepage": "https://github.com/tobiaslabs/base64-url-cli#readme",
+  "dependencies": {
+    "base64-url": "^1.2.1"
+  }
+}
