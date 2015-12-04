@@ -1,9 +1,12 @@
 {
   "name": "base64-url-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple command line wrapper for the base64-url module.",
   "bin": {
     "base64url": "bin.js"
+  },
+  "scripts": {
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,9 @@
   "homepage": "https://github.com/tobiaslabs/base64-url-cli#readme",
   "dependencies": {
     "base64-url": "^1.2.1"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2",
+    "tape-spawn": "^1.4.0"
   }
 }
