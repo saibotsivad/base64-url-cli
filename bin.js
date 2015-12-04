@@ -6,7 +6,7 @@ var command = process.argv[2]
 var input = process.argv[3]
 
 function commandIsAllowed(c) {
-	return c === 'encode' || c === 'decode' || c === 'escape' || c === 'unescape'
+	return typeof base64[command] === 'function'
 }
 
 if (!command || !input || !commandIsAllowed(command)) {
