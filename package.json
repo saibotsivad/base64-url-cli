@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobiaslabs/base64-url-cli.git"
+    "url": "git+https://github.com/saibotsivad/base64-url-cli.git"
   },
   "keywords": [
     "base64",
@@ -19,9 +19,9 @@
   "author": "saibotsivad",
   "license": "VOL",
   "bugs": {
-    "url": "https://github.com/tobiaslabs/base64-url-cli/issues"
+    "url": "https://github.com/saibotsivad/base64-url-cli/issues"
   },
-  "homepage": "https://github.com/tobiaslabs/base64-url-cli#readme",
+  "homepage": "https://github.com/saibotsivad/base64-url-cli#readme",
   "dependencies": {
     "base64-url": "^1.2.1"
   },

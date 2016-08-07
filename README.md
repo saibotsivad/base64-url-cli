@@ -35,6 +35,4 @@ Unescape strings:
 
 ## license
 
-Published and released under the [Very Open License](http://veryopenlicense.com)
-
-<3
+[VOL](http://veryopenlicense.com)
