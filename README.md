@@ -1,5 +1,7 @@
 # base64-url-cli [![Build Status](https://travis-ci.org/tobiaslabs/base64-url-cli.svg?branch=master)](https://travis-ci.org/tobiaslabs/base64-url-cli)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/base64-url-cli.svg)](https://greenkeeper.io/)
+
 This is a thin command line wrapper for the awesome
 [base64-url](https://www.npmjs.com/package/base64-url) module.
 
