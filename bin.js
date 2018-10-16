@@ -9,7 +9,15 @@ function commandIsAllowed(c) {
 	return typeof base64[command] === 'function'
 }
 
-if (!command || !input || !commandIsAllowed(command)) {
+function binarydecode(i) {
+ return Buffer.from(base64['unescape'](i), 'base64')
+}
+
+if ( command && input && command === 'binarydecode') {
+
+	process.stdout.write(binarydecode(input))
+
+} else if (!command || !input || !commandIsAllowed(command)) {
 	console.log('Missing required parameters. Run like:')
 	console.log('base64url [encode|decode|escape|unescape] [input]')
 	console.log('E.g., run this: base64url decode Tm9kZS5qcyBpcyBhd2Vzb21lLg')
