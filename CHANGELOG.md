@@ -16,3 +16,7 @@ Change categories are:
 
 ## [Unreleased]
 - Added a changelog, license, and guide for contributing.
+- Updated the [base64-url](https://github.com/joaquimserafim/base64-url)
+  dependency to the latest, `^1.2.1` to `^2.2.0` to handle a
+  [security issue](https://nodesecurity.io/advisories/660). Also
+  update all dev dependencies, used for tests.
