@@ -30,3 +30,11 @@ Change categories are:
 
 ### Removed
 - Support for NodeJS versions before 6.
+
+---
+
+## **1.0.6** - 2016-08-07
+### Fixed
+- The `package.json` URLs point to the correct place.
+
+[Unreleased]: https://github.com/saibotsivad/base64-url-cli/compare/v1.0.6...HEAD
