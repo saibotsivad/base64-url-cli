@@ -3,11 +3,11 @@
 This is a thin command line wrapper for the awesome
 [base64-url](https://www.npmjs.com/package/base64-url) module.
 
-## install
+## Install
 
 	npm install -g base64-url-cli
 
-## use it
+## Use It
 
 Run it from the command line:
 
@@ -33,6 +33,6 @@ Unescape strings:
 	$ base64url unescape "This-is_goingto-escape"
 	This+is/goingto+escape==
 
-## license
+## License
 
 [VOL](http://veryopenlicense.com)

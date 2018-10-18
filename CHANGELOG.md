@@ -25,6 +25,8 @@ Change categories are:
   dependency to the latest, `^1.2.1` to `^2.2.0` to handle a
   [security issue](https://nodesecurity.io/advisories/660). Also
   update all dev dependencies, used for tests.
+- Update the code to modern JS, and `process.stdout.write` instead of
+  console logging the output.
 
 ### Removed
 - Support for NodeJS versions before 6.
