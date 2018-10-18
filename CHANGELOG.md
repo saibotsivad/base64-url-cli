@@ -14,27 +14,37 @@ Change categories are:
 * `Fixed` for any bug fixes.
 * `Security` to invite users to upgrade in case of vulnerabilities.
 
-## [Unreleased]
+---
+
+## [2.0.0] 2018-10-18
 
 ### Added
+
 - Changelog, license, and guide for contributing.
 - Support for NodeJS 6, 8, and 10.
 
 ### Changed
+
 - Updated the [base64-url](https://github.com/joaquimserafim/base64-url)
-  dependency to the latest, `^1.2.1` to `^2.2.0` to handle a
+  dependency to the latest (`^1.2.1` to `^2.2.0`) to handle a
   [security issue](https://nodesecurity.io/advisories/660). Also
   update all dev dependencies, used for tests.
 - Update the code to modern JS, and `process.stdout.write` instead of
   console logging the output.
 
 ### Removed
+
 - Support for NodeJS versions before 6.
 
 ---
 
 ## **1.0.6** - 2016-08-07
+
 ### Fixed
+
 - The `package.json` URLs point to the correct place.
 
-[Unreleased]: https://github.com/saibotsivad/base64-url-cli/compare/v1.0.6...HEAD
+---
+
+[Unreleased]: https://github.com/saibotsivad/base64-url-cli/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/saibotsivad/base64-url-cli/compare/v1.0.6...v2.0.0
