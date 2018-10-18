@@ -15,8 +15,16 @@ Change categories are:
 * `Security` to invite users to upgrade in case of vulnerabilities.
 
 ## [Unreleased]
-- Added a changelog, license, and guide for contributing.
+
+### Added
+- Changelog, license, and guide for contributing.
+- Support for NodeJS 6, 8, and 10.
+
+### Changed
 - Updated the [base64-url](https://github.com/joaquimserafim/base64-url)
   dependency to the latest, `^1.2.1` to `^2.2.0` to handle a
   [security issue](https://nodesecurity.io/advisories/660). Also
   update all dev dependencies, used for tests.
+
+### Removed
+- Support for NodeJS versions before 6.
