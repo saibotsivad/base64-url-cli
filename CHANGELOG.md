@@ -16,6 +16,14 @@ Change categories are:
 
 ---
 
+## [2.0.1] 2018-10-18
+
+### Fixed
+
+- Link to Travis CI to show build status.
+
+---
+
 ## [2.0.0] 2018-10-18
 
 ### Added
@@ -46,5 +54,6 @@ Change categories are:
 
 ---
 
-[Unreleased]: https://github.com/saibotsivad/base64-url-cli/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/saibotsivad/base64-url-cli/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/saibotsivad/base64-url-cli/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/saibotsivad/base64-url-cli/compare/v1.0.6...v2.0.0
