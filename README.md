@@ -11,7 +11,7 @@ This is a thin command line wrapper for the awesome
 
 Run it from the command line:
 
-	base64url [encode|decode|escape|unescape] [input]
+	base64url [encode|decode|escape|unescape|binarydecode] [input]
 
 Encode strings to base64url:
 
@@ -32,6 +32,14 @@ Unescape strings:
 
 	$ base64url unescape "This-is_goingto-escape"
 	This+is/goingto+escape==
+
+Decode base64url to a binary stream:
+
+	$ base64url binarydecode "8wUUjd0b"
+	???
+	$ base64url binarydecode "8wUUjd0b" | od -t x1
+	0000000    f3  05  14  8d  dd  1b                                        
+	0000006
 
 ## License
 

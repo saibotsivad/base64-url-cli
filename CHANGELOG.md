@@ -16,6 +16,14 @@ Change categories are:
 
 ---
 
+## [Unreleased]
+
+### Added
+
+- Output decoded binary data.
+
+---
+
 ## [2.0.1] 2018-10-18
 
 ### Fixed

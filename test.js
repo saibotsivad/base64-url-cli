@@ -24,3 +24,9 @@ test('test decode', t => {
 	st.stdout.match(/This\+is\/goingto\+escape==/)
 	st.end()
 })
+
+test('test binarydecode', t => {
+	const st = spawn(t, 'node bin.js binarydecode "8wUUjd0b" | od -t x1')
+	st.stdout.match(/0000000\s+f3\s+05\s+14\s+8d\s+dd\s+1b\s+0000006/)
+	st.end()
+})
